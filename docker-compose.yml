@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-    image: nailyy/docker-react:latest
+    image: nailyy/hello-react:latest
     container_name: web
     restart: unless-stopped
     ports:
